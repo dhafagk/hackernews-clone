@@ -1,0 +1,11 @@
+// vendors
+@import "./vendors/_tailwind";
+@import "./vendors/_antd";
+
+// base
+@import "./base/_reset";
+@import "./base/_global";
+
+// components
+@import "./components/_layout";
+@import "./components/_news";

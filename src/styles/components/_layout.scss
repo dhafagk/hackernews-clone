@@ -1,0 +1,28 @@
+.layout {
+  @apply w-full sm:w-10/12 mx-auto pt-2;
+}
+
+.ant-layout-header {
+  @apply bg-primary flex leading-none h-auto gap-4 px-0 py-0.5 items-center;
+}
+
+.logo {
+  @apply flex items-center gap-1 pl-1;
+
+  img {
+    @apply border border-solid border-white;
+  }
+
+  a {
+    @apply text-xs font-bold;
+  }
+}
+
+.ant-layout-content,
+.ant-layout-footer {
+  @apply text-text text-xs bg-bg;
+}
+
+.ant-layout-content {
+  @apply p-2;
+}

@@ -1,0 +1,18 @@
+.news-list {
+  @apply flex flex-col gap-2;
+}
+
+.numbering {
+  @apply float-left w-6;
+}
+
+.news-url {
+  @apply pl-1 text-[10px];
+  a {
+    @apply text-text hover:underline;
+  }
+}
+
+.news-misc {
+  @apply pl-[23px] text-[10px];
+}
